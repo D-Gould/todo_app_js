@@ -78,7 +78,7 @@ test("todo has method #isWithinMonthYear", function() {
   var todo = list.list()[0];
   return (typeof todo.isWithinMonthYear === "function");
 });
-
+// todo has ONLY method isWithinMonthYear
 test("todo method #isWithinMonthYear returns true if values are equal", function() {
   var testTodoSet = [testTodoData1];
   var list = makeTodoList(testTodoSet);
